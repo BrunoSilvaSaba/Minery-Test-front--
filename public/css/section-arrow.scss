@@ -4,13 +4,16 @@
 {
     width: 100%;
     height: 418px;
+    
 }
 
 .section-arrow div 
 {
+    position: relative;
     display: flex;
     text-align: center;
     justify-content: center;
+    top: 72px;
 }
 
 .section-arrow div p 
@@ -24,7 +27,7 @@
     border: none;
     float: right;
     right: 250px;
-    top: 30px;
+    top: 80px;
 }
 
 .section-arrow input 
