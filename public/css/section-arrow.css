@@ -1,0 +1,48 @@
+.section-arrow {
+  width: 100%;
+  height: 418px;
+}
+
+.section-arrow div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-arrow div p {
+  max-width: 564px;
+}
+
+.section-arrow fieldset {
+  position: relative;
+  border: none;
+  float: right;
+  right: 250px;
+  top: 30px;
+}
+
+.section-arrow input {
+  width: 480px;
+  height: 44px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #E5E5E5;
+  border-radius: 22px;
+  opacity: 1;
+}
+
+.section-arrow button {
+  width: 99px;
+  height: 44px;
+  background: transparent radial-gradient(closest-side at 50% 50%, #FE1390 0%, var(--unnamed-color-df1cc5) 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 50% 50%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  opacity: 1;
+  color: #E5E5E5;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=section-arrow.css.map */

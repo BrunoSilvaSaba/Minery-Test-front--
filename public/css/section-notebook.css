@@ -1,0 +1,35 @@
+.section-notebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-notebook article {
+  position: relative;
+  right: 60px;
+  color: #00000094;
+}
+
+.section-notebook input {
+  width: 300px;
+  height: 63px;
+  border: 1px solid #DF1CC5;
+  color: #DF1CC5;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.section-notebook h2 {
+  font: italic normal 600 48px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #000000DE;
+  text-transform: uppercase;
+  opacity: 1;
+}
+/*# sourceMappingURL=section-notebook.css.map */

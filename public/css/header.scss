@@ -1,0 +1,35 @@
+header 
+{
+    width: 100%;
+    height: 102px;
+
+}
+
+header ul 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 24px;
+    align-items: center;
+    float: left;
+    left: 141px;
+
+}
+
+header ul li, a 
+{
+    text-decoration: none;
+    list-style: none;
+    width: 135px;
+    height: 54px;
+    font-size: 16px;
+    color: #00000094;
+    text-align: center;
+}
+
+header ul li, a:hover 
+{
+    color: #FE1390;
+    transition: 1s;
+}

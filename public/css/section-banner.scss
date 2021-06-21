@@ -1,0 +1,42 @@
+//section -- banner ---------------------------------------------------------------------------------------------
+
+.section-banner 
+{
+
+    background: #FE1390;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DF1CC5, #FE1390);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DF1CC5, #FE1390); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.section-banner input 
+{
+    width: 250px;
+    height: 63px;
+    border: 3px solid #FFFFFF;
+    background: rgba(255, 255, 255, 0.0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.section-banner h2 
+{
+    
+    text-shadow: 0px 3px 6px #00000029;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font: normal normal 800 64px/64px Open Sans;
+    font-size: 48px;
+   
+}
+
+.section-banner article 
+{
+    position: relative;
+    left: 60px;
+}
+
